@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e0037;
+  color: #ffffff;
+}
+
+header {
+  background-color: #2a0248;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ff007f;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+/* Links */
+a {
+  color: #ff007f;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  color: #ff4da6;
+}
+
+/* Dashboard Links */
+header + p, p a {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #3a0569;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+p a:hover {
+  background-color: #ff007f;
+  color: #ffffff;
+}
+
+/* Admin and Member Links */
+.admin-links, .member-links {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #2a0248;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.admin-links p, .member-links p {
+  margin: 10px 0;
+}
+
+/* Logout Link */
+p:last-child a {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+p:last-child a:hover {
+  background-color: #ff007f;
+  color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 2rem;
+  }
+
+  header p {
+      font-size: 1rem;
+  }
+
+  p a {
+      font-size: 1rem;
+      padding: 8px 16px;
+  }
+}

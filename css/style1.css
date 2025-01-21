@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(30, 0, 55, 0.8); /* Transparent background */
+  color: #ffffff;
+}
+
+header {
+  background-color: rgba(42, 2, 72, 0.9); /* Transparent background */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+  color: #ff007f;
+}
+
+/* Sidebar Styles */
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: rgba(42, 2, 72, 0.9); /* Transparent background */
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  color: #ff007f;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  padding: 20px;
+  background: linear-gradient(to bottom, rgba(42, 2, 72, 0.9), rgba(30, 0, 55, 0.8)); /* Transparent gradient background */
+}
+
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+main ul li {
+  background-color: rgba(58, 5, 105, 0.8); /* Transparent background */
+  border-radius: 10px;
+  padding: 15px;
+  flex: 1 1 calc(33.333% - 40px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+main ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+main ul li a:hover {
+  color: #ff007f;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(42, 2, 72, 0.9); /* Transparent background */
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+/* Button Style */
+button {
+  background-color: #ff007f;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff4da6;
+}
